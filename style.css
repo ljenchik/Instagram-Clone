@@ -1,3 +1,4 @@
+/* Login page styles */
 .login-container {
     display: flex;
     flex-direction: column;
@@ -23,3 +24,5 @@ input {
     border: none;
     border-radius: 10px;
 }
+
+/* Feed page styles */
