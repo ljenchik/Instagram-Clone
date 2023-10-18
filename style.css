@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 30%;
 }
 
 input {
@@ -11,13 +10,14 @@ input {
     padding: 10px;
     margin: 10px;
     border-radius: 3px;
-    border: 2px solid rgba(128, 128, 128, 0.224);
-    background-color: rgba(128, 128, 128, 0.029);
+    border: 2px solid #e0e0e0;
+    background-color: #fafafa;
+    color: #8e8e9c;
 }
 
 #login-button {
     width: 220px;
-    background-color: blue;
+    background-color: #2596be;
     color: white;
     padding: 10px;
     border: none;
