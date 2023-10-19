@@ -59,7 +59,7 @@ nav {
 }
 
 /* Section */
-section {
+.feed-section {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -187,4 +187,43 @@ p span {
     padding: 10px;
     border: none;
     width: 70px;
+}
+
+.account-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-section-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#account-multiverse-logo {
+    margin-top: 10px;
+    width: 20%;
+    height: 20%;
+}
+
+.mult-buttons {
+    width: 70%;
+}
+
+#joinmultiverse {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#account-follow-button,
+#account-message-button {
+    width: 38%;
+    background-color: #efefef;
+    color: #262626;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0;
 }
