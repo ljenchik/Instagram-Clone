@@ -286,3 +286,10 @@ p span {
     color: grey;
     margin: 20px 0px;
 }
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
