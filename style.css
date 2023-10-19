@@ -163,3 +163,28 @@ p span {
 .comments p {
     margin: 5px 20px;
 }
+
+/* Account page styles */
+
+.account-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#account-login {
+    background-color: #2596be;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+}
+
+#account-signup {
+    background-color: white;
+    color: #2596be;
+    padding: 10px;
+    border: none;
+    width: 70px;
+}
