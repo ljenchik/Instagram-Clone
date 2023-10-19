@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
 /* Login page styles */
+
 .login-container {
     display: flex;
     flex-direction: column;
@@ -91,6 +93,10 @@ section p {
     font-size: 0.8em;
 }
 
+p span {
+    font-size: 1.3em;
+}
+
 .dots {
     color: white;
     font-size: 20px;
@@ -101,4 +107,32 @@ section p {
     border-radius: 50%;
     width: 0.7em;
     height: 0.7em;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    display: block;
+    width: 75%;
+}
+
+.text {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-70%, -40%);
+}
+
+.text p {
+    margin: 4px 0px;
+    font-size: 1em;
+    font-family: "Mulish", sans-serif;
 }
